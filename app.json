@@ -1,0 +1,17 @@
+{
+  "name": "React Devise REST Sample App",
+  "description": "A simple app using react, devise, and rails-api",
+  "repository": "https://github.com/defektive/react-rest-sample",
+  "logo": "http://placekitten.com/g/96/96",
+  "keywords": ["rails", "react", "rest", "devise"],
+
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "env": {
+    "LANG": "en_US.UTF-8",
+    "RAILS_ENV": "production",
+    "RACK_ENV": "production",
+    "SECRET_KEY_BASE": "I_AM_NOT_VERY_SECRET"
+  }
+}
