@@ -1,15 +1,9 @@
 source 'https://rubygems.org'
-
-
+ruby "2.2.2"
 gem 'rails', '4.2.1'
-
 gem 'rails-api'
-
 gem 'spring', :group => :development
-
-
-gem 'sqlite3'
-
+gem 'pg'
 
 
 # To use ActiveModel has_secure_password
@@ -30,6 +24,7 @@ gem 'sqlite3'
 gem 'active_model_serializers', '~> 0.8.3'
 gem 'devise', '~> 3.4.1'
 group :development, :test do
+  gem 'sqlite3'
   gem 'rspec-rails'
 end
 
