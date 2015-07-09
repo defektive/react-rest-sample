@@ -75,6 +75,7 @@ GEM
       pry (~> 0.9)
       slop (~> 3.0)
     rack (1.6.4)
+    rack-cors (0.4.0)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.1)
@@ -149,6 +150,7 @@ DEPENDENCIES
   pg
   pry
   pry-remote
+  rack-cors
   rails (= 4.2.1)
   rails-api
   rspec-rails
@@ -156,4 +158,4 @@ DEPENDENCIES
   sqlite3
 
 BUNDLED WITH
-   1.10.3
+   1.10.5
