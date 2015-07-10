@@ -28436,7 +28436,26 @@
 	          null,
 	          "Home"
 	        ),
-	        React.createElement(_componentsWelcomeBox2["default"], null)
+	        React.createElement(_componentsWelcomeBox2["default"], null),
+	        React.createElement(
+	          "div",
+	          null,
+	          React.createElement(
+	            "a",
+	            { href: "https://github.com/defektive/react-rest-sample" },
+	            "Github Repo"
+	          ),
+	          React.createElement(
+	            "a",
+	            { href: "https://github.com/defektive/react-frontend" },
+	            "React Frontend"
+	          ),
+	          React.createElement(
+	            "a",
+	            { href: "https://github.com/defektive/rails-templates" },
+	            "Rails Templates"
+	          )
+	        )
 	      );
 	    }
 	  }]);
